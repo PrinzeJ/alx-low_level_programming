@@ -11,7 +11,7 @@ int main(void)
 
 	for (x = 1; x < 10; x++)
 	{
-		putchar(x);
+		putchar(x + '0');
 	}
 	for (y = 'a'; y <= 'f'; y++)
 	{
