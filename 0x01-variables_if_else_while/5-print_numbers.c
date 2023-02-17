@@ -6,12 +6,15 @@
  */
 int main(void)
 {
-	char i;
+	int m;
 
-	for (i = 0; i < 10; i++)
+	for (m = 0; m < 10; m++)
 	{
-		putchar(i);
+		putchar(m);
 	}
 	putchar('\n');
 	return (0);
 }
+ghdgfhxsigcjkshj
+vgxjhghksfgjlsdk
+xghjgcxhjcgsh
