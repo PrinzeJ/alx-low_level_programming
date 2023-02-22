@@ -11,7 +11,6 @@ int main(void)
 
 	printf("Infinite loop coming :(\n");
 	i = 0;
-
 	/*while (i < 10)*/
 	/*{*/
 	printf("Infinite loop avoided! \\o/\n");
