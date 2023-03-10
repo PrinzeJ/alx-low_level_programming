@@ -1,4 +1,9 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -c *.c
-ar -rc  liball.a *.o
-ranlib liball.o
+
+# compile
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -c *.c
+
+# create lib
+
+ar -cr liball.a *.o
